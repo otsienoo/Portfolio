@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Collins Otsieno</h1>
+        <p>Software Engineer | Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a software engineer with a background in mathematics and experience in e-commerce. I'm passionate about building efficient and scalable web applications.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Loan Calculator</h3>
+            <p>Take control of your financial future with our intuitive loan calculator. Simply input your loan amount, interest rate, and loan term to instantly see how much interest you'll pay. Our tool empowers you to make informed decisions by providing a clear view of your monthly and total interest obligations. Whether you're planning a big purchase or just curious, our calculator makes it easy to understand your loan's true cost</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Age Calculator</h3>
+            <p>Curious about how many days, months, or years you've lived? Our age calculator provides you with an accurate and detailed breakdown of your age, down to the exact day! Whether you're tracking milestones, planning for an event, or just satisfying your curiosity, this easy-to-use tool gives you a precise understanding of your age. Simply enter your birthdate, and instantly see how much time has passed since your journey began. Perfect for celebrating every moment of life’s adventure!</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Collins Otsieno. All rights reserved.</p>
+        <a href="https://github.com/dashboard">Github</a>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
